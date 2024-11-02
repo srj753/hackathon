@@ -1,0 +1,35 @@
+* Outer container to center content and apply padding */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Stylized title */
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px #aaa;
+  margin-bottom: 20px;
+}
+
+/* Container for notes text with border, shadow, and padding */
+.notes-container {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Styling for the notes text inside the container */
+.notes-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
